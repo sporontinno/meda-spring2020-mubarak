@@ -8,7 +8,7 @@
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  
 
   <!--CSS Inline, CSS Internal, CSS External-->
 
@@ -16,17 +16,55 @@
 
   <style>
     body {
-        background-color: cyan;
+        background-color: darkgrey;
       }
 
     p {
         color: whitesmoke;
         font-size: 100px;
+        /* This font-family rule has three fallbacks options*/
+        font-family: "Verdana", "Geneva", "sans-serif";
+        border-width: 10px;
+        border-style: solid;
+        border-color:tomato;
+        margin-top: 200px;
+        margin-bottom: 200px;
+        margin-left: auto;
+        margin-right: auto;
       }
 
     h1 {
         color:tomato;
         font-size: 75px;
+        font-family: "Courier";
+        background-color: white;
+        /* The following two rules only apply to block-level elements */
+        /* Block-level elements will by default take up the entire line,
+        unless forced by the width rule. e.g H1 is a block-level element */
+        width: 400px;
+        height: 400px;
+        border-style: dotted;
+        margin-top: 200px;
+        margin-bottom: 200px;
+        margin-left: 50px;
+        margin-right: 100px;
+        margin: 50px 100px 25px 125px;
+        margin: 50px 100px;
+        margin: 25px;
+        margin: 0 auto;
+
+    /* Padding-top, padding-bottom, padding-right, padding-left, padding */
+
+        
+      }
+      
+      /* to avoid image shewing, you can use only a width or height for images,
+      one is calculated based on ratio of the other */
+        img {
+          width: 320px;
+          height: 400px;
+          border: 15px blue dashed;
+          border-radius: 20px;
       }
   </style>
 
@@ -36,6 +74,8 @@
 
     <h1>Hello There!</h1>
     <p>This is my webpage</p>
+
+    <img src="codepc.jpg" alt="computer code" />
 
   <script src="js/scripts.js"></script>
 </body>
