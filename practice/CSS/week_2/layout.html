@@ -21,14 +21,44 @@
         #main {
           background-color: teal;
           color:turquoise;
-          height: 400px;
+          height: 620px;
           border-radius: 50px;
           border: solid 10px black;
           margin: 25px auto;
-          padding-left: 25px;
+          padding-left: 0;
           width: 855px;
 
       }
+
+        #main div {
+            border-radius: 50px;
+            height: 100px;
+            background-color: darksalmon;
+            margin: 0 auto 10px auto;
+            width: 860px;
+            margin-top: 20px;
+            overflow: auto;
+            width: 75%;
+        }
+
+        #main div:nth-child(1) {
+            margin-top: 20px;
+        }
+            
+        #main div p {
+            color: ghostwhite;
+            font-size: 40px;
+            font-family: "Arial";
+            margin: 20px;
+         }
+
+         #main .odd {
+             background-color: hotpink;
+         }
+
+        #main .even {
+            background-color: grey;
+        }
 
         #footer {
           background-color: grey;
@@ -95,7 +125,27 @@
 
     <!-- HTML 5 version is <main></main>-->
     <div id="main">
-        <p>This area is the second div.</p>
+        
+        <div class="odd">
+            <p>This area is the second div.</p>
+        </div>
+
+        <div class="even">
+
+        </div>
+
+        <div class="odd">
+
+        </div>
+
+        <div class="even">
+
+        </div>
+
+        <div class="odd">
+
+        </div>
+    
     </div>
 
     <!-- HTML 5 version is <footer></footer>-->
