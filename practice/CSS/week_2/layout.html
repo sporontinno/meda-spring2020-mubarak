@@ -2,125 +2,23 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-<title>Layout</title>
+    <title>Layout</title>
+
+    <link rel="stylesheet" href="reset.css" />
  
     <style>
-
-    * {
-        font-family: "Monaco" !important;
-    }
-
-    body {
-        background-color: lightslategray;
-        background-image: url("sf.jpg");
-        background-size: cover;
-        background-repeat: repeat;
-    }
-        
-    #header {
-    background-color: coral;
-    color: white;
-    padding: 40px;
-    width: 860px;
-    margin: 0 auto;
-    }
-
-    #header h1 {
-        color: black;
-    }
-        #main {
-          background-color: rgba(0, 0, 0, 0.5);
-          color:turquoise;
-          height: 620px;
-          border-radius: 50px;
-          border: solid 10px black;
-          margin: 25px auto;
-          padding-left: 0;
-          width: 855px;
-
-      }
-
-        #main div {
-            border-radius: 50px;
-            height: 100px;
-            background-color: darksalmon;
-            margin: 0 auto 10px auto;
-            width: 860px;
-            margin-top: 20px;
-            overflow: auto;
-            width: 75%;
-            background-image: url("orange.jpg");
-            background-size: cover;
-            
+        h1 {
+            font-size: 72px;
         }
 
-        #main div:nth-child(1) {
-            margin-top: 20px;
+        p {
+            font-size: 48px;
+            border: fuchsia 2px dashed;
+            width: 600px;
+            margin: 40px auto;
         }
-            
-        #main div p {
-            color: ghostwhite;
-            font-size: 40px;
-            font-family: "Arial";
-            margin: 20px;
-         }
-
-         #main .odd {
-             background-color: hotpink;
-         }
-
-        #main .even {
-            background-color: grey;
-        }
-
-        #footer {
-          background-color: grey;
-          color: whitesmoke;
-          padding: 10px;
-          width: 900px;
-          height: 400px;
-          margin: 0 auto;
-
-        
-      }
-
-        #footer p {
-            color: black;
-        }
-
-        #footer h6 {
-            color: blueviolet;
-        }
-
-        #footer div h6 {
-            color: red;
-        }
-/* chrome does throw in default style, you have to override*/
-
-        #food-list {
-            list-style-type: none;
-            background-color: tomato;
-            padding-left: 0px;
-            width: 900px;
-            margin: 0 auto;
-        
-        }
-
-        #food-list li {
-            display: inline-block;
-            background-color: yellow;
-            margin: 10px;
-            width: 57px;
-            overflow: hidden;
-        }
-
-        #videos {
-            margin:0 auto;
-            width: 900px;
-        }
-
     </style>
 
   
@@ -168,6 +66,10 @@
     <!-- HTML 5 version is <footer></footer>-->
 
     <div id="footer">
+
+        <div class="footer-columns" id="footer-left"></div><div class="footer-columns" id="footer-center"></div><div class="footer-columns" id="footer-right"></div>
+
+
         <p> &copy; 2020 Mubarak Abara</p>
 
         <h6>This is really tiny text as well!!!</h6>
