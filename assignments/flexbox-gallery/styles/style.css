@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color:grey;
 }
 
 div#flex-gallery {
@@ -12,17 +12,28 @@ div#flex-gallery {
     background-color: white;
     padding: 15px;
     margin: 15px;
+    border-radius: 10px;
 }
 
 figure {
     width: 220px;
+    border: solid black 2px;
 }
 
 figure > img {
     width: 200px;
-}
-
-figure > img {
-    border: solid orangered 10px;
+    border: solid orangered 5px;
     border-radius: 10px;
 }
+
+figcaption {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+    line-height: 30px;
+    font-family: "verdana", "sans-serif";
+    font-weight: bold;
+    color: darkred;
+    font-style: italic;
+}
+
