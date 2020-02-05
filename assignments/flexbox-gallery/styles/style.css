@@ -5,8 +5,24 @@ body {
 div#flex-gallery {
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
-figure, figure > img {
+#flex-gallery > figure {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+}
+
+figure {
+    width: 220px;
+}
+
+figure > img {
     width: 200px;
+}
+
+figure > img {
+    border: solid orangered 10px;
+    border-radius: 10px;
 }
