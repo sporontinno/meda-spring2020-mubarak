@@ -6,24 +6,26 @@ div#flex-gallery {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-}
+}   
 
 #flex-gallery > figure {
     background-color: white;
     padding: 15px;
-    margin: 15px;
+    /* margin: 15px 0;*/
     border-radius: 10px;
 }
 
 figure {
     width: 220px;
     border: solid black 2px;
+    /*height: 300px;*/
 }
 
 figure > img {
     width: 200px;
     border: solid orangered 5px;
     border-radius: 10px;
+    /*height: 200px;*/
 }
 
 figcaption {
@@ -37,6 +39,3 @@ figcaption {
     font-style: italic;
 }
 
-.last-one {
-    align-content: center;
-}
