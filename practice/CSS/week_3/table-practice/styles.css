@@ -1,0 +1,30 @@
+table {
+    font-family: "Verdana";
+    width: 650px;
+    font-size: 14px;
+}
+
+thead tr th {
+    background-color: aquamarine;
+    color: white;
+    height: 35px;
+    font-weight: bold;
+}
+
+thead tr:nth-child(1) th {
+    background-color: darkcyan; 
+}
+
+tbody tr {
+    height: 25px;
+}
+
+tbody > tr > th {
+    background-color: darkgrey;
+}
+
+tbody tr td {
+    background-color: lightgray;
+    text-align: center;
+}
+
