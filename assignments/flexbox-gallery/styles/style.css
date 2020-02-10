@@ -6,7 +6,8 @@ div#flex-gallery {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    
+    flex-flow: column wrap;
+    align-items: flex-start;
 }   
 
 #flex-gallery > figure {
