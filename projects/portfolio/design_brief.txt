@@ -1,0 +1,117 @@
+Portfolio
+---------
+---------
+
+
+
+
+Pages
+---------
+
+
+
+--> About me page
+
+(Portrait here)
+
+Hello! My name is Mubarak Abara, and I’m a web developer here
+in Oakland. I like to code and create good looking websites.
+As a child, I always loved collecting tools and materials to 
+build houses and that passion grew up with me to now transform
+into building websites.
+
+If I am not working, I like to watch movies (I love superhero movies) 
+and soccer, my favorite team is the best Italian team Juventus.
+
+<Skills-section>
+
+HTML-logo
+
+My focus is writing clean, valid, semantic HTML5.
+
+
+CSS-logo
+
+I write CSS that is easy to read and build on.
+
+
+Github-logo
+
+I always load my code into Github to share my work
+and to collaborate with the team.
+
+
+
+
+--> Contact me page
+
+Email address
+Twitter address
+Instagram address
+Linkedin address
+
+
+
+
+--> Projects page
+
+Projects
+
+
+
+Colors
+----------
+
+
+--> Background: lightgrey (whole-page) and skyblue (skills-section)
+
+Lightgrey is a cool and neutral color. It goes well with other colors. It's not
+as bright as white, so it can be easier on the eyes.
+
+Blue is the color of sky and sea it's associated with calmness.
+
+
+--> Text-heading: black
+
+black can highlight text easily.It is a bold and dark color.
+
+
+--> Text-body: darkgrey
+
+Grey text is softer and can at times be more appealing visually. It makes the page feel lighter.It makes it easier for the user to see black headings.
+
+
+--> Links: black
+
+It is a very dark color. It will be easily identified.
+
+
+
+Fonts
+----------
+
+
+
+--> Fonts-heading: Palatino
+
+It's a large font that makes it perfect for the web, traditionally used for headings and print-style ads.
+
+
+
+--> Fonts-body: Verdana
+
+it is easy to read online.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
