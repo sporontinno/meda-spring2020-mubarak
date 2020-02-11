@@ -96,15 +96,41 @@ footer {
     text-transform: uppercase;
 }
 
-footer section ul {
+#social-links ul {
     text-align: center;
 }
 
-footer section ul li {
+#social-links ul li {
     display: inline-block;
-    padding: 10px;
-    border: solid red 1px;
+    border: solid 1px red;
     border-radius: 10px;
+    padding: 0;
 }
+
+#social-links ul li {
+    line-height: 100%;
+    box-sizing: border-box;
+}
+
+#social-links ul li a {
+    display: inline-block;
+    padding: 8px;
+}
+
+#social-links ul li:hover {
+    color: white;
+    background-color: red;
+}
+
+#social-links ul li a:link {
+    text-decoration: none;
+    color: red;
+}
+
+#social-links ul li a:hover {
+ color: white;
+}
+
+
 
 /* FOOTER STYLES START */
