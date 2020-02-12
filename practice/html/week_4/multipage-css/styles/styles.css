@@ -193,3 +193,24 @@ main#homepage p {
 }
 
 /* GALLERY STYLE END */
+
+
+/* CONTACT STYLE START */
+
+#contact-flexbox {
+    display: flex;
+    height: 300px;
+}
+
+#contact-flexbox div:first-child {
+    flex-grow: 3;
+    background-color: lightblue;
+}
+
+#contact-flexbox div:last-child {
+    flex-grow: 1;
+    background-color: lightsalmon;
+}
+
+
+/* CONTACT STYLE END */
