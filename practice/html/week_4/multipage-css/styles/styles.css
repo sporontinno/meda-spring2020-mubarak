@@ -98,11 +98,12 @@ footer {
 
 #social-links ul {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #social-links ul li {
     display: inline-block;
-    border: solid 1px red;
+    border: solid 1px brown;
     border-radius: 10px;
     padding: 0;
 }
@@ -117,20 +118,41 @@ footer {
     padding: 8px;
 }
 
-#social-links ul li:hover {
-    color: white;
-    background-color: red;
-}
-
 #social-links ul li a:link {
     text-decoration: none;
-    color: red;
+    color: brown;
+}
+
+#social-links ul li a:visited {
+    color: brown;
 }
 
 #social-links ul li a:hover {
  color: white;
+ background-color: brown;
+}
+
+/* FOOTER STYLES START */
+
+
+
+/* MAIN DEFAULT STYLES START */
+
+main {
+    font-family: "Arial";
+    color: brown;
+}
+
+main h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+main p {
+    font-size: 24px;
 }
 
 
 
-/* FOOTER STYLES START */
+/* MAIN DEFAULT STYLES END */
