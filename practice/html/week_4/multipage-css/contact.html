@@ -41,25 +41,51 @@
         </header>
 
         <main id="contact">
-            
+
+            <h1>Contact Us! Only $5.99 per message.</h1>
+            <hr />
             <div id="contact-flexbox">
 
                 <!-- div:first-child selects the folowing: -->
                 <div>
-                    <form>
+                    <form id="contact-form" action="#">
                         <label for="name">Name: </label>
-                        <input type="text" id="name"/><br />
-                        <input type="text" /><br />
-                        <input type="text" /><br />
-                        <textarea>
-
-                        </textarea>
-
+                        <input type="text" id="name"/>
+                        <br />
+                        <label for="email">Email: </label>
+                        <input type="text" id="email" />
+                        <br />
+                        <label for="subject">Subject: </label>
+                        <input type="text" id="subject"/>
+                        <br />
+                        <label for="message">Message: </label>
+                        <br />
+                        <textarea id="message"></textarea>
+                        <br />
+                        <input class="form-buttons" type="reset" />
+                        <input class="form-buttons" type="submit" />
                     </form>
                 </div>
 
                 <!-- div:last-child selects the folowing: -->
-                <div></div>
+                <div>
+
+                    <dl id="additional-info">
+                        <dt>Address:</dt>
+                        <dd>395 Posg St. San Francisco
+                        CA, 94110</dd>
+                        <dt>Email Address:</dt>
+                        <dd>
+                            <a href="mailto:reallyposh@poshgallery.com">
+                                reallyposh@poshgallery.com</a>
+                        </dd>
+                        <dt>Phone:</dt>
+                        <dd>
+                            <a href="tel:415">(415)RLY-POSH</a>
+                        </dd>
+                    </dl>
+                    
+                </div>
             </div>
 
         </main>

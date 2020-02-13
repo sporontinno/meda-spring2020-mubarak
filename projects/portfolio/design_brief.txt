@@ -10,9 +10,15 @@ Pages
 
 
 
---> About me page
+--> ABOUT ME PAGE
 
-(Portrait here)
+Name
+
+Navigation-links
+
+Background-image
+
+Portrait-image
 
 Hello! My name is Mubarak Abara, and I’m a web developer here
 in Oakland. I like to code and create good looking websites.
@@ -43,8 +49,9 @@ and to collaborate with the team.
 
 
 
---> Contact me page
+--> CONTACT ME PAGE
 
+Contact me form
 Email address
 Twitter address
 Instagram address
@@ -53,9 +60,11 @@ Linkedin address
 
 
 
---> Projects page
+--> PROJECTS PAGE
 
-Projects
+Hobby-pag-screenshot
+
+This is a hobby page created to share my love for coffee specifically for Eritrean coffee.
 
 
 
@@ -63,7 +72,7 @@ Colors
 ----------
 
 
---> Background: lightgrey (whole-page) and skyblue (skills-section)
+--> Background: lightgrey (whole-page for all pages - #ebebeb -) and lightblue (skills-section - #c9f8ff -)
 
 Lightgrey is a cool and neutral color. It goes well with other colors. It's not
 as bright as white, so it can be easier on the eyes.
@@ -81,9 +90,9 @@ black can highlight text easily.It is a bold and dark color.
 Grey text is softer and can at times be more appealing visually. It makes the page feel lighter.It makes it easier for the user to see black headings.
 
 
---> Links: black
+--> Header-links: dark-grey
 
-It is a very dark color. It will be easily identified.
+It is a dark color. It goes well with the color of the back-ground image.
 
 
 
@@ -101,6 +110,40 @@ It's a large font that makes it perfect for the web, traditionally used for head
 --> Fonts-body: Verdana
 
 it is easy to read online.
+
+
+
+Images
+----------
+
+Header-Background-image (laptop image)
+Portrait 
+HTML-logo-image
+CSS-logo-image
+Github-logo-image
+Hobby-page-screenshot
+
+
+
+
+Portfolios
+--------------
+
+https://www.colingrist.com/
+
+Likes: The header background changes to a white color when you scroll down.
+Dislikes: The contact page is very simple, maybe add a contact form in there.
+
+http://aaronmoody.co.uk/
+
+Likes: design is very nice and professional, nice touch with the project sites and how user can see the different pages in the main section. 
+Dislikes: the page is a bit long, maybe add a link to the footer (contact) section.
+
+http://www.mynus.sk/
+
+Likes: Images are clickable, change color (blue) and text appears when the cursor is on the image.
+Dislikes: header text is too big, bad font and probably change the footer links, avoid the underlines.
+Navigating the website was a bit confusing too. 
 
 
 

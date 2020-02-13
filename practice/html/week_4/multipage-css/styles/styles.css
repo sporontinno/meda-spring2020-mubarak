@@ -1,5 +1,5 @@
 body {
-    background-color: brown;
+    background-color: coral;
 }
 
 header, main, footer {
@@ -18,14 +18,14 @@ header {
 }
 
 header, main {
-    border-bottom: brown 5px solid;
+    border-bottom: coral 5px solid;
 }
 
 header h1 {
     font-family: "Zapfino";
     font-size: 48px;
     text-align: center;
-    color: brown;
+    color: coral;
     line-height: 84px;
 }
 
@@ -47,7 +47,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    background-color:brown;
+    background-color:coral;
     color: white;
     padding: 12px;
     margin-top: 25px;
@@ -85,7 +85,7 @@ nav ul li a:ctive {
 /* FOOTER STYLES START */
 
 footer {
-    color: brown;
+    color: coral;
     font-family: "Arial";
     line-height: 48px;
 }
@@ -103,7 +103,7 @@ footer {
 
 #social-links ul li {
     display: inline-block;
-    border: solid 1px brown;
+    border: solid 1px coral;
     border-radius: 10px;
     padding: 0;
 }
@@ -120,16 +120,16 @@ footer {
 
 #social-links ul li a:link {
     text-decoration: none;
-    color: brown;
+    color: coral;
 }
 
 #social-links ul li a:visited {
-    color: brown;
+    color: coral;
 }
 
 #social-links ul li a:hover {
  color: white;
- background-color: brown;
+ background-color: coral;
 }
 
 /* FOOTER STYLES START */
@@ -140,7 +140,7 @@ footer {
 
 main {
     font-family: "Arial";
-    color: brown;
+    color: coral;
 }
 
 main h1 {
@@ -197,20 +197,65 @@ main#homepage p {
 
 /* CONTACT STYLE START */
 
+#contact hr {
+    border: dotted coral 3px;
+}
+
 #contact-flexbox {
     display: flex;
-    height: 300px;
 }
 
 #contact-flexbox div:first-child {
     flex-grow: 3;
-    background-color: lightblue;
 }
 
 #contact-flexbox div:last-child {
     flex-grow: 1;
-    background-color: lightsalmon;
 }
 
+#contact-form {
+    width: 400px;
+    margin: 20px;
+}
+
+#contact-form label {
+    font-size: 24px;
+}
+
+#contact-form input {
+    border: dashed 5px coral;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: coral;
+    padding-left: 11px;
+}
+
+#contact-form .form-buttons {
+    margin: 20px;
+    color: coral;
+    font-size: 18px;
+    width: 360px;
+}
+
+#contact-form .form-buttons:hover {
+    border: solid coral 5px;
+    cursor: pointer;
+    color: light
+}
+
+#contact-form textarea {
+    border: dashed 5px coral;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 11px;
+    font-size: 18px;
+    color: coral;
+}
 
 /* CONTACT STYLE END */
