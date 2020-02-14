@@ -62,7 +62,7 @@ Linkedin address
 
 --> PROJECTS PAGE
 
-Hobby-pag-screenshot
+Hobby-page-screenshot
 
 This is a hobby page created to share my love for coffee specifically for Eritrean coffee.
 
