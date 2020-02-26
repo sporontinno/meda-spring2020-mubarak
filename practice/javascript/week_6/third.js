@@ -58,3 +58,18 @@ var roundedRandomNumber = Math.floor(someNumber);
 
 // Print random number.
 console.log(roundedRandomNumber);
+
+var variable1 = '10', variable2 = 100, variable3 = true;
+console.log(variable2);
+
+//calling before defining
+Console.log(howAreYou);
+Var howAreYou = ‘hello’;
+// you will get undefined
+
+// We reassign the HowAReYou value to 100, then we call HowAreYou for it's value and assign that to coolVariable.
+var coolVariable = howAreYou = 100;
+// you will get 100, because right hand side of an equal sign is called assigned first.
+
+
+
