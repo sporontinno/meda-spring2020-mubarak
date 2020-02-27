@@ -29,6 +29,8 @@ into building websites.
 If I am not working, I like to watch movies (I love superhero movies) 
 and soccer, my favorite team is the best Italian team Juventus.
 
+Checkout my resume.
+
 <Skills-section>
 
 HTML-logo

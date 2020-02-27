@@ -1,0 +1,31 @@
+body {
+    border: darkgrey 2px solid;
+    width: 1200px;
+    margin-top: 5px;
+    margin: 0 auto;
+}
+
+header {
+    background: url("../images/background-image.jpg");
+    height: 800px;
+}
+
+.header {
+    float: left;
+    width: 600px;
+}
+
+.header h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.header nav {
+    text-align: right;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-top: 10px;
+}
