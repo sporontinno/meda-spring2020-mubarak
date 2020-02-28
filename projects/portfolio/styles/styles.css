@@ -39,12 +39,11 @@ nav ul li {
     font-family: "Verdana","San-serif";
     font-size: 30px;
     text-decoration: none;
-
 }
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #5D6680;
 }
 
 /* Header End */
@@ -52,7 +51,7 @@ nav ul li a {
 /* Main Homepage Start */
 
 #width-height {
-    height: 1000px;
+    height: 450px;
 }
 
 .portrait {
@@ -76,21 +75,138 @@ nav ul li a {
     font-family: "Verdana", "Sans-serif";
     font-size: 18px;
     padding-right: 12px;
+    color: #5D6680;
     
+}
+
+.aboutme p a {
+    text-decoration: none;
+    color: black;
 }
 
 #all-logos {
     width: 1200px;
-    height: 500px;
+    height: 450px;
+    background-color: #93B9C9;
+    
 }
 
 .logos {
     width: 400px;
     float: left;
     text-align: center;
+    padding-top: 100px;
+    
+}
+
+.logos p {
+    font-family: "Verdana", "Sans-serif";
+    color: black;
 }
 
 /* Main Homepage End */
+
+/* Main Projects Page Start */
+
+#projects-height {
+    width: 1200px;
+    height: 400px;
+}
+
+.hobby-page {
+    width: 550px;
+    height: 300px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.hobby-page img {
+    border: #93B9C9 solid 2px;
+}
+
+.coffee {
+    width: 600px;
+    height: 200px;
+    float: right;
+    padding-top: 150px;
+    font-family: "Verdana", "Sans-serif";
+    color: #5D6680;
+
+}
+
+/* Main Projects Page End */
+
+
+/* Main Contacts Page Start */
+
+
+#contact hr {
+    border: solid #93B9C9; 3px;
+}
+
+#contact-flexbox {
+    display: flex;
+}
+
+#contact-flexbox div:first-child {
+    flex-grow: 3;
+}
+
+#contact-flexbox div:last-child {
+    flex-grow: 1;
+}
+
+#contact-form {
+    width: 400px;
+    margin: 20px;
+}
+
+#contact-form label {
+    font-size: 18px;
+    font-family: "Verdana", "Sans-serif";
+    color: #5D6680;
+}
+
+#contact-form input {
+    border: solid 2px #93B9C9;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #93B9C9;
+    padding-left: 11px;
+}
+
+#contact-form .form-buttons {
+    margin: 20px;
+    color: #93B9C9;
+    font-size: 18px;
+    width: 360px;
+}
+
+#contact-form .form-buttons:hover {
+    border: solid orangered 2px;
+    cursor: pointer;
+    color: light
+}
+
+#contact-form textarea {
+    border: solid 2px #93B9C9;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 11px;
+    font-size: 18px;
+    color: #93B9C9;
+}
+
+
+
+/* Main Contacts Page End */
 
 
 

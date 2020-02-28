@@ -29,7 +29,7 @@ into building websites.
 If I am not working, I like to watch movies (I love superhero movies) 
 and soccer, my favorite team is the best Italian team Juventus.
 
-Checkout my resume.
+Checkout my resume 
 
 <Skills-section>
 
@@ -74,7 +74,7 @@ Colors
 ----------
 
 
---> Background: lightgrey (whole-page for all pages - #ebebeb -) and lightblue (skills-section - #c9f8ff -)
+--> Background: lightgrey (whole-page for all pages - #ebebeb -) and bluegrey (skills-section - #93B9C9 -)
 
 Lightgrey is a cool and neutral color. It goes well with other colors. It's not
 as bright as white, so it can be easier on the eyes.
@@ -87,15 +87,21 @@ Blue is the color of sky and sea it's associated with calmness.
 black can highlight text easily.It is a bold and dark color.
 
 
---> Text-body: darkgrey
+--> Text-body: darkgrey #5D6680;
+
+
 
 Grey text is softer and can at times be more appealing visually. It makes the page feel lighter.It makes it easier for the user to see black headings.
 
 
---> Header-links: dark-grey
+--> Header-links: dark-grey #5D6680;
+
 
 It is a dark color. It goes well with the color of the back-ground image.
 
+--> Resume-link-color: black
+
+--> Logos-text-color: black
 
 
 Fonts
@@ -123,7 +129,7 @@ Portrait
 HTML-logo-image
 CSS-logo-image
 Github-logo-image
-Hobby-page-screenshot
+Hobby-page-screenshot link (image border color #93B9C9)
 
 
 
