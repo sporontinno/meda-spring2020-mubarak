@@ -48,6 +48,9 @@ nav ul li a {
 
 /* Header End */
 
+
+
+
 /* Main Homepage Start */
 
 #width-height {
@@ -106,6 +109,8 @@ nav ul li a {
 
 /* Main Homepage End */
 
+
+
 /* Main Projects Page Start */
 
 #projects-height {
@@ -138,34 +143,27 @@ nav ul li a {
 /* Main Projects Page End */
 
 
+
+
 /* Main Contacts Page Start */
 
-
-#contact hr {
-    border: solid #93B9C9; 3px;
+#container {
+    width: 1200px;
+    height: 700px;
 }
 
-#contact-flexbox {
-    display: flex;
-}
-
-#contact-flexbox div:first-child {
-    flex-grow: 3;
-}
-
-#contact-flexbox div:last-child {
-    flex-grow: 1;
-}
 
 #contact-form {
     width: 400px;
     margin: 20px;
+    float: left;
 }
 
 #contact-form label {
     font-size: 18px;
     font-family: "Verdana", "Sans-serif";
     color: #5D6680;
+    padding-bottom: 5px;
 }
 
 #contact-form input {
@@ -189,7 +187,7 @@ nav ul li a {
 #contact-form .form-buttons:hover {
     border: solid orangered 2px;
     cursor: pointer;
-    color: light
+    color: lightblue;
 }
 
 #contact-form textarea {
@@ -204,7 +202,24 @@ nav ul li a {
     color: #93B9C9;
 }
 
+#address {
+    width: 600px;
+    height: 600px;
+    float: right;
+}
 
+#address p {
+    text-align: center;
+    padding-top: 150px;
+    font-family: "Verdana", "Sans-serif";
+    font-size: 32px;
+    line-height: normal;
+}
+
+#address p a {
+    text-decoration: none;    
+    color: #5D6680;
+}
 
 /* Main Contacts Page End */
 
