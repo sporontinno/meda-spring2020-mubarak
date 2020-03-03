@@ -17,3 +17,15 @@ daysOfWeek[6] = "funday";
 daysOfWeek[7] = "superday";
 console.log(daysOfWeek);
 
+var myArray = [null, undefined, NaN, 0, "", false];
+
+console.log(myArray[3]);
+
+myArray[3] = {};
+
+console.log(myArray);
+
+// to empty a value, you can use a null as written below.
+myArray[3] = null; 
+
+console.log(myArray);
