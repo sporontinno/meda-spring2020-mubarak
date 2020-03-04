@@ -70,5 +70,7 @@ function salaryBonus(salary, bonus) {
 
 
 var test = salaryBonus(10000, .10);
+var test2 = salaryBonus(20000, 0.85);
 
 console.log(test);
+console.log(test2);
