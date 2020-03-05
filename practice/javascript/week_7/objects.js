@@ -77,8 +77,3 @@ console.log("david".charAt(3));
 
 
 
-var myString = "Hello there how are you?";
-
-console.log(myString.length);
-
-var myStringArray = myString.split();
