@@ -1,6 +1,7 @@
-// Function 
+// We are telling Node to include the FS library.
 const fs = require("fs");
 
+// We grab the values that were typed in the terminal and store them in the arguments variable.
 var arguments = process.argv;
 
 // console.log("Contents of process.argv: ", arguments);
