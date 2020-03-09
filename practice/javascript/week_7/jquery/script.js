@@ -1,24 +1,46 @@
 // jQuery(document).ready( function() {} );
 
+
 jQuery(document).ready( function() {
 
-    console.log("hello");
+    $("#light-off").click(function () {
+        $("body").css({"background-color": "black", "color": "white"});
+    });
 
-    jQuery("h1").css({"font-size": "100px", "color": "pink"});
+    $("#light-on").click(function () {
 
-    jQuery("ul").css({"border": "10px solid green"})
+        var body = $("body");
+        body.css({"background-color": "white"});
+        body.css("color", "black");
+    });
 
-    jQuery("button").click(function () {
-        console.log("hello");
+    // new javascript function, takes two arguments, first is callback, second is how long in milliseconds.
+    setTimeout(function () {
+
+    // Add an element to the webpage. it adds it to the end.
+    $("ol").append("<li>This was added after the fact.</li>");
+
+    $("body").append("<h1>New section</h1><p>Welcome to this new section</p>");
+
+    // Adds an element to the start of the child list, .prepend()
+    $("body").prepend("<h1 style='color: red'>Alert! new virus!</h1>");
+
+    // Adds an html as a child, replacing existing children, . html()
+    $("ol").html("<li>All tasks done!</li>");
     
-        jQuery("body").css({
-            "background-color": "orange"
-        });
-    });
 
-    jQuery("h1").css({
-        "margin-top": "500px"
-    });
-        
+}, 3000);
+
+$("#recycleButton").click(function() {
+    
+    // Removes the element you have selected.
+    $('body').remove();
+    
+    // Removes all the children of the element you have selected.
+    $('body').empty();
+
+})
+    
 
 } );
+
