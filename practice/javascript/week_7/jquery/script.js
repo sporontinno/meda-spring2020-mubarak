@@ -27,6 +27,7 @@ jQuery(document).ready( function() {
 
     // jQuery .next(), .prev()
     // JQuery .parent(), .children()
+    // these methods help you select the elements 
 
     $("body").children("ul").prev().prev().next();
 
